@@ -1,10 +1,19 @@
+:root {
+  --black: #14213D;
+  --blue: #0072bb;
+  --light-blue: aliceblue;
+  --white: #fff;
+  --blur: rgba(0, 0, 0, 0.6);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  background: aliceblue;
 }
 
 code {
@@ -18,4 +27,21 @@ a {
 a:hover {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.349);
+}
+/* Navigation */
+.navbar {
+  background-color: #0072bb;
+}
+.navbar-brand {
+  color: #fff;
+  font-size: 30px;
+}
+.nav-link {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: #0072bb;
 }
