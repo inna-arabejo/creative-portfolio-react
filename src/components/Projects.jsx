@@ -5,7 +5,7 @@ function Projects() {
   return (
     <div className="home">
       <div class="container">
-        <Link to="/blog/this-is-a-post-title">
+        <Link to="/projects/this-is-a-post-title">
           <div class="row align-items-center my-5">
             <div class="col-lg-7">
               <img
