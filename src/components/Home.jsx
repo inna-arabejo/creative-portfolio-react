@@ -1,4 +1,5 @@
 import React from "react";
+let ProfilePic = require ("../images/profile-pic.JPG");
 
 function Home() {
   return (
@@ -7,9 +8,7 @@ function Home() {
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
             <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
+              src={ProfilePic} alt="My professional profile" class="img-fluid rounded mb-4 mb-lg-0" width="300" height="300"
             />
           </div>
           <div class="col-lg-5">

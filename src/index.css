@@ -41,7 +41,12 @@ a:hover {
   font-size: 20px;
 }
 
+/* About */
+.img-fluid {
+  margin-left: 100px;
+}
+
 /* Footer */
-.footer {
+.footer-color {
   background-color: #0072bb;
 }
