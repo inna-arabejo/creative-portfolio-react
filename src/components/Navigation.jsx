@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Navigation() {
   return (
     <div className="navigation">
-      <nav className="navbar navbar-expand">
+      <nav className="navbar navbar-expand fixed-top">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
             Inna Arabejo

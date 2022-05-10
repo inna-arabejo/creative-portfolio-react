@@ -14,6 +14,7 @@ body {
   min-height: 100vh;
   width: 100%;
   background: aliceblue;
+  margin-top: 8%;
 }
 
 code {
@@ -49,4 +50,15 @@ a:hover {
 /* Footer */
 .footer-color {
   background-color: #0072bb;
+}
+.footer-icons {
+  font-size: 30px;
+  color: #fff;
+  display: inline-block;
+  padding-left: 10%;
+  margin-left: 12%;
+  /* padding-right: 15%; */
+}
+.copyright {
+  margin-top: 50px;
 }
