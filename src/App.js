@@ -1,9 +1,14 @@
-// import React from 'react';
+// import React from "react";
 
-// function App() {
+// export default function App() {
 //   return (
-    
+//     <main>
+//       <Navigation />
+//       <Home />
+//       <About />
+//       <Projects />
+//       <Contact />
+//       <Footer />
+//     </main>
 //   );
 // }
-
-// export default App;

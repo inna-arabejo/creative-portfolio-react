@@ -1,4 +1,6 @@
 import React from "react";
+import { FaGithub, FaNodeJs, FaHtml5, FaCss3, FaBootstrap } from 'react-icons/fa';
+import { SiExpress, SiMysql, SiSequelize, SiSocketdotio, SiHandlebarsdotjs, SiJavascript, SiHeroku } from 'react-icons/si';
 let nerdsMeetsNerds = require ("../images/nerds-meet-nerds.jpg");
 let junkfood = require ("../images/junkfood.jpg");
 let noteTaker = require ("../images/note-taker.jpg");
@@ -6,15 +8,14 @@ let dailyPlanner = require ("../images/daily-planner-screenshot.jpg");
 let teamProfileGenerator = require ("../images/team-profile-generator.jpg");
 let passwordGenerator = require ("../images/portfolio-password.jpg");
 let codeQuiz = require ("../images/code-quiz.jpg");
-// import { Link } from "react-router-dom";
 
 function Projects() {
   return (
     <div className="projects">
       <section class="projects" id="projects">
-        <h1 class="font-weight-heavy">Projects</h1>
+        <h1 class="font-weight-heavy">Projects</h1> 
         <article class="box-card">
-          <a target="_blank" href="https://nerds-meet-nerds.herokuapp.com/"><h3>Nerds Meet Nerds</h3></a>
+          <a target="_blank" rel="noreferrer" href="https://nerds-meet-nerds.herokuapp.com/"><h3>Nerds Meet Nerds</h3></a>
           <div class="image" id="first-card" >
             <img class="image-img thumbnail" src={nerdsMeetsNerds} alt="Dating app for all types of nerds." />
             <div class="image-overlay image-overlay-blur">
@@ -23,19 +24,23 @@ function Projects() {
             </div>
           </div>
           <p>
-            <a target="_blank" href="https://github.com/inna-arabejo/Nerds-Meet-Nerds"><i class="fa-brands fa-github"></i></a> |
-            <i class="fa-solid fa-database"></i>
-            <i class="fa-brands fa-node"></i>
-            <i class="fa-solid fa-messages"></i>
-            <i class="fa-brands fa-js-square"></i>
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3"></i>
+            <a target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/Nerds-Meet-Nerds"><FaGithub /></a> |
+            <SiExpress />
+            <SiMysql />
+            <SiSequelize />
+            <SiHeroku />
+            <FaNodeJs />
+            <SiSocketdotio />
+            <SiHandlebarsdotjs />
+            <SiJavascript />
+            <FaHtml5 />
+            <FaCss3 />
               {/* Express/Session/MySQL/Sequelize/Node/Socket.io/Handlebars/Bcrypt/JS/CSS/HTML */}
           </p>
         </article>
 
         <article class="box-card">
-          <a target="_blank" href="https://inna-arabejo.github.io/g3p-junkfood/"><h3>junkfood.</h3></a>
+          <a target="_blank" rel="noreferrer" href="https://inna-arabejo.github.io/g3p-junkfood/"><h3>junkfood.</h3></a>
           <div class="image">
             <img class="image-img thumbnail" src={junkfood} alt="API generated memes and gifs." />
             <div class="image-overlay image-overlay-blur">
@@ -43,17 +48,17 @@ function Projects() {
               </p>
             </div>
           </div>
-          <p><a target="_blank" href="https://github.com/inna-arabejo/g3p-junkfood"><i class="fa-brands fa-github"></i></a> |
-            <i class="fa-brands fa-bootstrap"></i>
-            <i class="fa-brands fa-js-square"></i>
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3"></i>
+          <p><a target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/g3p-junkfood"><FaGithub /></a> |
+            <FaBootstrap />
+            <SiJavascript />
+            <FaHtml5 />
+            <FaCss3 />
               {/* HTML/CSS/JS/Bootstrap/API */}
           </p>
         </article>
         
         <article class="box-card">
-          <a target="_blank" href="https://note-taker-inna.herokuapp.com/"><h3>Note Taker</h3></a>
+          <a target="_blank" rel="noreferrer" href="https://note-taker-inna.herokuapp.com/"><h3>Note Taker</h3></a>
           <div class="image">
             <img class="image-img thumbnail" src={noteTaker} alt="Takes notes, saves, and deletes it." />
             <div class="image-overlay image-overlay-blur">
@@ -61,18 +66,20 @@ function Projects() {
               </p>
             </div>
           </div>
-          <p><a target="_blank" href="https://github.com/inna-arabejo/note-taker"><i class="fa-brands fa-github"></i></a> |
-            <i class="fa-brands fa-bootstrap"></i>
-            <i class="fa-brands fa-node"></i>
-            <i class="fa-brands fa-js-square"></i>
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3"></i>
+          <p><a target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/note-taker"><FaGithub /></a> |
+            <SiExpress />
+            <FaBootstrap />
+            <SiHeroku />
+            <FaNodeJs />
+            <SiJavascript />
+            <FaHtml5 />
+            <FaCss3 />
               {/* Express/Heroku/Node/HTML/CSS/JS  */}
           </p>
         </article>
 
         <article class="box-card">
-          <a target="_blank" href="https://inna-arabejo.github.io/daily-work-planner/"><h3>Daily Planner</h3></a>
+          <a target="_blank" rel="noreferrer" href="https://inna-arabejo.github.io/daily-work-planner/"><h3>Daily Planner</h3></a>
           <div class="image">
             <img class="image-img thumbnail" src={dailyPlanner} alt="Daily planner" />
             <div class="image-overlay image-overlay-blur">
@@ -80,18 +87,17 @@ function Projects() {
               </p>
             </div>
           </div>
-          <p><a target="_blank" href="https://github.com/inna-arabejo/daily-work-planner"><i class="fa-brands fa-github"></i></a> |
-            <i class="fa-brands fa-bootstrap"></i>
-            <i class="fa-brands fa-js-square"></i>
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3"></i>
-            <i class="fa-thin fa-calendar-clock"></i>
+          <p><a target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/daily-work-planner"><FaGithub /></a> |
+            <SiJavascript />
+            <FaHtml5 />
+            <FaCss3 />
+            <FaBootstrap />
               {/* Moment.js/API/Bootstrap  */}
           </p>
         </article>
         
         <article class="box-card">
-          <a target="_blank" href="https://note-taker-inna.herokuapp.com/"><h3>Team Profile Generator</h3></a>
+          <a target="_blank" rel="noreferrer" href="https://note-taker-inna.herokuapp.com/"><h3>Team Profile Generator</h3></a>
           <div class="image">
             <img class="image-img thumbnail" src={teamProfileGenerator} alt="Generates employee profile" />
             <div class="image-overlay image-overlay-blur">
@@ -100,18 +106,19 @@ function Projects() {
               </p>
             </div>
           </div>
-          <p><a target="_blank" href="https://github.com/inna-arabejo/team-profile-generator"><i class="fa-brands fa-github"></i></a> |
-            <i class="fa-brands fa-bootstrap"></i>
-            <i class="fa-brands fa-node"></i>
-            <i class="fa-brands fa-js-square"></i>
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3"></i>
+          <p><a target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/team-profile-generator"><FaGithub /></a> |
+            <SiExpress />
+            <SiHeroku />
+            <FaNodeJs />
+            <SiJavascript />
+            <FaHtml5 />
+            <FaCss3 />
               {/* Express/Heroku/Node/HTML/CSS/JS  */}
           </p>
         </article>
         
         <article class="box-card">
-          <a target="_blank" href="https://inna-arabejo.github.io/password-generator-js/"><h3>Password Generator</h3></a>
+          <a target="_blank" rel="noreferrer" href="https://inna-arabejo.github.io/password-generator-js/"><h3>Password Generator</h3></a>
           <div class="image">
             <img class="image-img thumbnail" src={passwordGenerator} alt="Password generator based on given prompt." />
             <div class="image-overlay image-overlay-blur">
@@ -119,16 +126,16 @@ function Projects() {
               </p>
             </div>
           </div>
-          <p><a target="_blank" href="https://github.com/inna-arabejo/password-generator-js"><i class="fa-brands fa-github"></i></a> |
-            <i class="fa-brands fa-js-square"></i>
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3"></i>
+          <p><a target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/password-generator-js"><FaGithub /></a> |
+            <SiJavascript />
+            <FaHtml5 />
+            <FaCss3 />
               {/* HTML/CSS/JS */}
           </p>
         </article>
         
         <article class="box-card">
-          <a target="_blank" href="https://inna-arabejo.github.io/web-api-code-quiz/"><h3>Code Quiz</h3></a>
+          <a target="_blank" rel="noreferrer" href="https://inna-arabejo.github.io/web-api-code-quiz/"><h3>Code Quiz</h3></a>
           <div class="image">
             <img class="image-img thumbnail" src={codeQuiz} alt="Multiple choice code quiz" />
             <div class="image-overlay image-overlay-blur">
@@ -136,10 +143,10 @@ function Projects() {
               </p>
             </div>
           </div>
-          <p><a target="_blank" href="https://github.com/inna-arabejo/web-api-code-quiz"><i class="fa-brands fa-github"></i></a> | 
-            <i class="fa-brands fa-js-square"></i>
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3"></i>
+          <p><a target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/web-api-code-quiz"><FaGithub /></a> | 
+            <SiJavascript />
+            <FaHtml5 />
+            <FaCss3 />
               {/* HTML/CSS/JS  */}
           </p>
         </article>
