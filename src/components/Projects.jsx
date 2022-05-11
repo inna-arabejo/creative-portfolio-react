@@ -12,19 +12,19 @@ let codeQuiz = require ("../images/code-quiz.jpg");
 function Projects() {
   return (
     <div className="projects">
-      <section class="projects" id="projects">
+      <section class="projects">
         <h1 class="font-weight-heavy">Projects</h1> 
         <article class="box-card">
           <a target="_blank" rel="noreferrer" href="https://nerds-meet-nerds.herokuapp.com/"><h3>Nerds Meet Nerds</h3></a>
           <div class="image" id="first-card" >
-            <img class="image-img thumbnail" src={nerdsMeetsNerds} alt="Dating app for all types of nerds." />
+            <img class="image-img thumbnail" src={nerdsMeetsNerds} alt="Dating app for all types of nerds." width="300" height="300"/>
             <div class="image-overlay image-overlay-blur">
               <p class="image-description">With the current trend of niche dating apps, Nerds Meet Nerds brings introverts, anime fans, and all other nerds a platform to interact with each other. This is a place where they can geek out and be matched with compatible users based on their interests and allow real-time messaging. 
               </p>
             </div>
           </div>
-          <p>
-            <a target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/Nerds-Meet-Nerds"><FaGithub /></a> |
+          <p class="icons">
+            <a class="github" target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/Nerds-Meet-Nerds"><FaGithub /></a> |
             <SiExpress />
             <SiMysql />
             <SiSequelize />
@@ -48,7 +48,8 @@ function Projects() {
               </p>
             </div>
           </div>
-          <p><a target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/g3p-junkfood"><FaGithub /></a> |
+          <p class="icons">
+            <a class="github" target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/g3p-junkfood"><FaGithub /></a> |
             <FaBootstrap />
             <SiJavascript />
             <FaHtml5 />
@@ -66,7 +67,8 @@ function Projects() {
               </p>
             </div>
           </div>
-          <p><a target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/note-taker"><FaGithub /></a> |
+          <p class="icons">
+            <a class="github" target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/note-taker"><FaGithub /></a> |
             <SiExpress />
             <FaBootstrap />
             <SiHeroku />
@@ -87,7 +89,8 @@ function Projects() {
               </p>
             </div>
           </div>
-          <p><a target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/daily-work-planner"><FaGithub /></a> |
+          <p class="icons">
+            <a class="github" target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/daily-work-planner"><FaGithub /></a> |
             <SiJavascript />
             <FaHtml5 />
             <FaCss3 />
@@ -106,7 +109,8 @@ function Projects() {
               </p>
             </div>
           </div>
-          <p><a target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/team-profile-generator"><FaGithub /></a> |
+          <p class="icons">
+            <a class="github" target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/team-profile-generator"><FaGithub /></a> |
             <SiExpress />
             <SiHeroku />
             <FaNodeJs />
@@ -126,7 +130,8 @@ function Projects() {
               </p>
             </div>
           </div>
-          <p><a target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/password-generator-js"><FaGithub /></a> |
+          <p class="icons">
+            <a class="github" target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/password-generator-js"><FaGithub /></a> |
             <SiJavascript />
             <FaHtml5 />
             <FaCss3 />
@@ -143,7 +148,8 @@ function Projects() {
               </p>
             </div>
           </div>
-          <p><a target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/web-api-code-quiz"><FaGithub /></a> | 
+          <p class="icons">
+            <a class="github" target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/web-api-code-quiz"><FaGithub /></a> | 
             <SiJavascript />
             <FaHtml5 />
             <FaCss3 />
