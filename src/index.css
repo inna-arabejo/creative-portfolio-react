@@ -46,6 +46,27 @@ a:hover {
 .img-fluid {
   margin-left: 100px;
 }
+div.about-paragraph {
+  font-weight: 500;
+  line-height: 2.0;
+}
+
+/* Skills */
+#skills-tools {
+  margin-top: 10%;
+  text-align: center;
+  margin-left: 5%;
+}
+#skill-font {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.frameworks-languages {
+  margin-bottom: 5%;
+}
+.technologies {
+  margin-bottom: 10%;
+}
 
 /* Footer */
 .footer-color {
