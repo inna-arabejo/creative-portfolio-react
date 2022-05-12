@@ -6,13 +6,13 @@ function Navigation() {
     <div className="navigation">
       <nav className="navbar navbar-expand fixed-top">
         <div className="container">
-          <NavLink className="navbar-brand" to="/">
+          <NavLink className="navbar-brand" to="/home">
             Inna Arabejo
           </NavLink>
           <div>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <NavLink className="nav-link" to="/">
+                <NavLink className="nav-link" to="/home">
                   Home
                   <span className="sr-only">(current)</span>
                 </NavLink>

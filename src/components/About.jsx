@@ -19,14 +19,16 @@ function About() {
   return (
     <div className="about">
       <div class="container">
+      <section class="about">
+        <h1 class="font-weight-heavy">About</h1>
         <div class="row align-items-center my-5">
           <div class="col-lg-5">
             <img
               src={ProfilePic} alt="My professional profile" class="img-fluid rounded mb-4 mb-lg-0" width="300" height="300"  
             />
           </div>
+            
           <div class="col-lg-6 about-paragraph">
-            <h1 class="font-weight-heavy">About</h1>
             <p>
               My name is Inna Arabejo, and I am an
               aspiring full stack developer versed in building projects from the ground up. I am an up-and-coming graduate of the Full Stack Web Development program from SMU Continuing and Professional Education; a rigorous program with a primary focus on MERN Stack web applications.
@@ -106,6 +108,7 @@ function About() {
             </div>
           </section>
         </div>
+      </section>
       </div>
     </div>
   );
