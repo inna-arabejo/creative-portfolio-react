@@ -16,10 +16,10 @@ ReactDOM.render(
   <Router>
     <Navigation />
     <Routes>
-      <Route path="/home" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/projects" element={<Projects />}>
+      <Route path="/creative-portfolio-react/home" element={<Home />} />
+      <Route path="/creative-portfolio-react/about" element={<About />} />
+      <Route path="/creative-portfolio-react/contact" element={<Contact />} />
+      <Route path="/creative-portfolio-react/projects" element={<Projects />}>
       </Route>
     </Routes>
     <Footer />
