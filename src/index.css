@@ -49,6 +49,8 @@ a:hover {
   animation-iteration-count: infinite; /* Never stop waving :) */
   transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
   display: inline-block;
+  color: #14213D;
+  font-size: 45px;
 }
 
 @keyframes wave-animation {
@@ -77,47 +79,25 @@ a:hover {
     transform: rotate(0deg);
   }
 }
-.home-header {
-  padding-top: 80px !important;
-}
-
-.home-section {
-  position: relative;
-  z-index: -1;
-  background-position: top center;
-  background-repeat: no-repeat;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
-}
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  color: whitesmoke;
-  text-align: left;
+  color: #0072bb;
+  text-align: center;
 }
-
-.heading {
-  font-size: 2.4em !important;
-  padding-left: 50px !important;
-}
-
-.heading-name {
-  font-size: 2.5em !important;
-  padding-left: 45px !important;
-}
-
 .main-name {
-  color: var(--green-3);
+  color: #14213D;
+  font-size: 2.5em !important;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: var(--green-3) !important;
+  color: #0072bb !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: var(--green-3) !important;
+  color: #0072bb !important;
 }
 
 @media (max-width: 767px) {
