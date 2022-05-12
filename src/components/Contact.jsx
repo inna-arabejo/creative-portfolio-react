@@ -4,24 +4,52 @@ function Contact() {
   return (
     <div className="contact">
       <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Contact</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
+      <section class="contact">
+        <h2>Contact</h2>
+          <div class="content">
+            <div class="left-side">
+              <div class="address details">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="topic">Address</div>
+                <div class="text-one">Dallas, TX</div>
+                <div class="text-two">United States</div>
+              </div>
+              <div class="phone details">
+                <i class="fas fa-phone-alt"></i>
+                <div class="topic">Phone</div>
+                <div class="text-one">(214-682-3521)</div>
+              </div>
+              <div class="email details">
+                <i class="fas fa-envelope"></i>
+                <div class="topic">Email</div>
+                <div class="text-one">inna.arabejo@gmail.com</div>
+              </div>
+            </div>
+            <div class="right-side">
+              <div class="topic-text">Let's Connect!</div>
+              <p>If you have any questions or would like to reach out, please feel free to send me a message.</p>
+              <form action="https://formspree.io/f/xnqwlaaj" method="POST">
+                <label class="input-box">
+                  <input type="text" name="name" placeholder="Enter your name"/>
+                </label>
+                <label class="input-box">
+                  <input type="text" name="email" placeholder="Enter your email"/>
+                </label>
+                <label class="input-box">
+                  <input type="text" name="subject" placeholder="Subject"/>
+                </label>
+                <label class="input-box message-box">
+                  <textarea class="form-control" rows="5" name="message" placeholder="Enter your message"></textarea>
+                </label>
+                <div>
+                  <input class="button" type="button" value="Send Now" />
+                </div>
+                <div id="status" role="alert">
+                </div>
+              </form>
           </div>
         </div>
+      </section>
       </div>
     </div>
   );
