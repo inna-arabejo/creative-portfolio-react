@@ -12,8 +12,8 @@ let codeQuiz = require ("../images/code-quiz.jpg");
 function Projects() {
   return (
     <div className="projects">
+      <h1 class="project-title">Projects</h1> 
       <section class="projects">
-        <h1 class="font-weight-heavy">Projects</h1> 
         <article class="box-card">
           <a target="_blank" rel="noreferrer" href="https://nerds-meet-nerds.herokuapp.com/"><h3>Nerds Meet Nerds</h3></a>
           <div class="image" id="first-card" >

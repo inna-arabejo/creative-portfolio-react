@@ -113,9 +113,12 @@ a:hover {
 
 /* About */
 section.about h1 {
+  display: block;
   text-align: center; 
+  margin: auto;
   font-weight: 500;
   font-size: 40px;
+  padding-bottom: 2%;
 }
 .img-fluid {
   margin-left: 150px;
@@ -147,21 +150,21 @@ div.about-paragraph {
 /* Projects section */
 .projects {
   display: flex;
-  flex-flow: column nowrap;
-  width: 100%;
+  flex-flow: row wrap;
+  width: 98%;
   height: 100%;
+  margin-bottom: 5%;
+  margin-left: 2%;
 }
-section.projects div {
-  padding: 20px;
-  display: flex;
-}
-section.projects h1 {
+h1.project-title {
+  display: block;
   text-align: center; 
+  margin: auto;
   font-weight: 500;
   font-size: 40px;
+  padding-bottom: 2%;
 }
 .box-card {
-  /* flex: 0 0 0; */
   border: #14213D 2px solid;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
   border-radius: 20px;
@@ -172,9 +175,6 @@ section.projects h1 {
   height: 30%;
   text-align: center;
 }
-/* .one, .two, .three, .four, .five, .six, .seven {
-  display: flex;
-} */
 
 /* Image hover text overlay effect */
 .image {
@@ -215,26 +215,12 @@ section.projects h1 {
   transform: translateY(0);
 }
 
-
-/* Image hover text overlay effect with the first card */
-/* .image#first-card {
-  position: relative;
-  width: 1000px;
-  height: 350px;
-  display: block;
-} */
-
-/* #first-card.image-img {
-  display: block;
-  width: 100%;
-  height: 100%;
-} */
-
 /* Repo and technologies used */
-article p.image-description {
+p.image-description {
   font-size: 15px;
   font-weight: 500;
   text-align: center;
+  padding: 20px;
 }
 .github {
   text-decoration: none;
@@ -253,7 +239,7 @@ article p.image-description {
 }
 
 /* Contact */
-section.contact h2 {
+section.contact h1 {
   display: block;
   text-align: center; 
   margin: auto;
