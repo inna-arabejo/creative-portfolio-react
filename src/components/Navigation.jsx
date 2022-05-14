@@ -32,6 +32,11 @@ function Navigation() {
                   Contact
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/creative-portfolio-react/resume">
+                  Resume
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>

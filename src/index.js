@@ -10,6 +10,7 @@ import {
   About,
   Contact,
   Projects,
+  Resume,
 } from "./components";
 
 ReactDOM.render(
@@ -19,7 +20,8 @@ ReactDOM.render(
       <Route path="/creative-portfolio-react/home" element={<Home />} />
       <Route path="/creative-portfolio-react/about" element={<About />} />
       <Route path="/creative-portfolio-react/contact" element={<Contact />} />
-      <Route path="/creative-portfolio-react/projects" element={<Projects />}>
+      <Route path="/creative-portfolio-react/projects" element={<Projects />}/>
+      <Route path="/creative-portfolio-react/resume" element={<Resume />}>
       </Route>
     </Routes>
     <Footer />

@@ -2,10 +2,8 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="contact">
+    <section class="contact">
       <div class="container">
-      <section class="contact">
-        <h1>Contact</h1>
           <div class="content">
             <div class="left-side">
               <div class="address details">
@@ -49,9 +47,8 @@ function Contact() {
               </form>
           </div>
         </div>
-      </section>
       </div>
-    </div>
+    </section>
   );
 }
 
