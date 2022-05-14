@@ -17,7 +17,7 @@ ReactDOM.render(
   <Router>
     <Navigation />
     <Routes>
-      <Route path="/creative-portfolio-react/home" element={<Home />} />
+      <Route path="/creative-portfolio-react/" element={<Home />} />
       <Route path="/creative-portfolio-react/about" element={<About />} />
       <Route path="/creative-portfolio-react/contact" element={<Contact />} />
       <Route path="/creative-portfolio-react/projects" element={<Projects />}/>
