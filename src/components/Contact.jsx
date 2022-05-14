@@ -4,6 +4,7 @@ function Contact() {
   return (
     <section class="contact">
       <div class="container">
+        <h1>Contact</h1>
           <div class="content">
             <div class="left-side">
               <div class="address details">

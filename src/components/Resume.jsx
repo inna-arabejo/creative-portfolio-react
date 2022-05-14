@@ -5,12 +5,12 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function Resume() {
   return(
-    <div className='res'>
-      <h2 className='heading'>Resume</h2>
+    <div className='res' class="resume-pdf">
+      <h1 className='resume-heading'>Resume</h1>
       <Document
       file={resume}
       onLoadError={console.error}
-      style={{ width: '100vw', height: 'auto'}}
+      className='document'
       >
         <Page pageIndex={0}/>
       </Document>
