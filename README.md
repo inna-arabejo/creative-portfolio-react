@@ -1,7 +1,70 @@
-# Getting Started with Create React App
+# Creative Portfolio: React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Objectives 
+A dynamic react portfolio that showcases who I am as a web-developer. It includes an about-me, projects I've created, contact form, and resume. 
+
+## Table of Contents
+1. [Installation](#installation)
+2. [Steps to Install](#steps-to-install)
+3. [Main Features](#main-features)
+4. [Deployed Page](#deployed-page)
+5. [Screenshots](#screenshots)
+6. [Technologies Used](#technologies-used)
+7. [License](#license)
+
+## Installation
+The following dependencies were installed to run the application. 
+* [react-pdf](https://www.npmjs.com/package/react-pdf)
+
+## Steps to Install
+This application should be hosted locally via github pages. However, if the application is no longer running, or you just wish to run it locally, you can follow these instructions:
+
+#### Step 1
+
+Download or Clone this repo:
+You can either download the repo as a zip file and unzip it to your computer, or you can clone it down to your computer directly.
+
+#### Step 2
+
+Navigate to App Directory:
+Make sure you are in the directory of the application. It should be a folder named creative-portfolio-react. 
+
+#### Step 3
+
+Install Dependencies:
+While you are located in the app directory, enter 'npm install'. This should cause the application to find and install all necessary dependencies.
+
+#### Step 4
+
+Start the application:
+Open the terminal by right-clicking the `src` folder, then in the command line, enter 'npm start'. As long as there are no errors, this should run the app via http://localhost:3000 to view it in your browser.
+
+## Main Features
+
+- An about me page that includes a list of skills.
+- Projects I've created.
+- A contact form to connect with me. *Connecting to the backend in progress*
+- A displayed pdf image of my resume.
+
+
+## Deployed Page
+[Creative React Portfolio](https://inna-arabejo.github.io/creative-portfolio-react/)
+
+## Screenshots
+![Homepage](./src/images/home-page-porfolio.jpg)
+![Projects](./src/images/projects-portfolio.jpg)
+![Resume](./src/images/resume-pdf-portfolio.jpg)
+
+## Technologies Used
+React, Node.js, HTML, CSS, JS, Bootstrap
+
+
+## License
+This project is covered under MIT.
+
+------------------------------------
 ## Available Scripts
 
 In the project directory, you can run:
