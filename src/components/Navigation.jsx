@@ -6,34 +6,34 @@ function Navigation() {
     <div className="navigation">
       <nav className="navbar navbar-expand fixed-top">
         <div className="container">
-          <NavLink className="navbar-brand" to="/creative-portfolio-react/home">
+          <NavLink className="navbar-brand" to="/home">
             Inna Arabejo
           </NavLink>
           <div>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <NavLink className="nav-link" to="/creative-portfolio-react/home">
+                <NavLink className="nav-link" to="/home">
                   Home
                   <span className="sr-only">(current)</span>
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/creative-portfolio-react/about">
+                <NavLink className="nav-link" to="/about">
                   About
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/creative-portfolio-react/projects">
+                <NavLink className="nav-link" to="/projects">
                   Projects
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/creative-portfolio-react/contact">
+                <NavLink className="nav-link" to="/contact">
                   Contact
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/creative-portfolio-react/resume">
+                <NavLink className="nav-link" to="/resume">
                   Resume
                 </NavLink>
               </li>
