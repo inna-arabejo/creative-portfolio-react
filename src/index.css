@@ -389,6 +389,11 @@ h1.resume-heading {
   width: 36vw;
   height: 93vh;
 }
+.resume-btn {
+  margin-left: 20%;
+  margin-bottom: 2%;
+  margin-top: -2%;
+}
 
 /* Footer */
 .footer-color {
