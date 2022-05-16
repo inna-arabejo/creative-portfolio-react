@@ -340,24 +340,8 @@ section.contact h1 {
 input.button[type="button"]:hover{
   background: #4d81a1;
 }
-#status {
-  margin-top: 10px;
-  width: 90%;
-  max-width: 500px;
-  text-align: center;
-  padding: 10px;
-  border-radius: 8px;
-}
-#status.success {
-  background-color: #80d359cc;
-  font-weight: 500;
-  animation: status 4s ease forwards;
-}
-#status.error {
-  background-color: #d35d59cc;
-  font-weight: 500;
-  color: #fff;
-  animation: status 4s ease forwards;
+p.form-errors {
+  color: red;
 }
 
 @keyframes status {
