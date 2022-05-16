@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/creative-portfolio-react/static/css/main.a7efcb37.css",
-    "main.js": "/creative-portfolio-react/static/js/main.5acda675.js",
+    "main.css": "/creative-portfolio-react/static/css/main.d0b232a2.css",
+    "main.js": "/creative-portfolio-react/static/js/main.28a87928.js",
     "static/media/junkfood.jpg": "/creative-portfolio-react/static/media/junkfood.b4e73a86e6fb30e3aaf2.jpg",
     "static/media/nerds-meet-nerds.jpg": "/creative-portfolio-react/static/media/nerds-meet-nerds.f137430f39927d2d0b2f.jpg",
     "static/media/team-profile-generator.jpg": "/creative-portfolio-react/static/media/team-profile-generator.727861c75af25b669584.jpg",
@@ -24,11 +24,11 @@
     "static/media/stackoverflow.png": "/creative-portfolio-react/static/media/stackoverflow.23048f7754906f1c5cb8.png",
     "static/media/html.png": "/creative-portfolio-react/static/media/html.33745eadd572612bdf11.png",
     "index.html": "/creative-portfolio-react/index.html",
-    "main.a7efcb37.css.map": "/creative-portfolio-react/static/css/main.a7efcb37.css.map",
-    "main.5acda675.js.map": "/creative-portfolio-react/static/js/main.5acda675.js.map"
+    "main.d0b232a2.css.map": "/creative-portfolio-react/static/css/main.d0b232a2.css.map",
+    "main.28a87928.js.map": "/creative-portfolio-react/static/js/main.28a87928.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7efcb37.css",
-    "static/js/main.5acda675.js"
+    "static/css/main.d0b232a2.css",
+    "static/js/main.28a87928.js"
   ]
 }
