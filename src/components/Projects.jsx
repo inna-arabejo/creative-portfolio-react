@@ -1,19 +1,44 @@
 import React from "react";
-import { FaGithub, FaNodeJs, FaHtml5, FaCss3, FaBootstrap } from 'react-icons/fa';
-import { SiExpress, SiMysql, SiSequelize, SiSocketdotio, SiHandlebarsdotjs, SiJavascript, SiHeroku } from 'react-icons/si';
-let nerdsMeetsNerds = require ("../images/nerds-meet-nerds.jpg");
-let junkfood = require ("../images/junkfood.jpg");
-let noteTaker = require ("../images/note-taker.jpg");
-let dailyPlanner = require ("../images/daily-planner-screenshot.jpg");
-let teamProfileGenerator = require ("../images/team-profile-generator.jpg");
-let passwordGenerator = require ("../images/portfolio-password.jpg");
-let codeQuiz = require ("../images/code-quiz.jpg");
+import { FaGithub, FaNodeJs, FaHtml5, FaCss3, FaBootstrap, FaReact } from 'react-icons/fa';
+import { SiExpress, SiMysql, SiSequelize, SiSocketdotio, SiHandlebarsdotjs, SiJavascript, SiHeroku, SiMongodb } from 'react-icons/si';
+let nerdsMeetsNerds = require ("../images/project-images/nerds-meet-nerds.jpg");
+let junkfood = require ("../images/project-images/junkfood.jpg");
+let jobSearchify = require ("../images/project-images/webpage1.png");
+let socialMediaMongoDB = require ("../images/project-images/social-media-mongodb.jpg");
+let noteTaker = require ("../images/project-images/note-taker.jpg");
+let dailyPlanner = require ("../images/project-images/daily-planner-screenshot.jpg");
+let teamProfileGenerator = require ("../images/project-images/team-profile-generator.jpg");
+let passwordGenerator = require ("../images/project-images/portfolio-password.jpg");
+let codeQuiz = require ("../images/project-images/code-quiz.jpg");
 
 function Projects() {
   return (
     <div className="projects">
       <h1 class="project-title">Projects</h1> 
       <section class="projects">
+
+        <article class="box-card">
+          <a target="_blank" rel="noreferrer" href="https://job-searchify-app.herokuapp.com/"><h3>JOB.searchify</h3></a>
+          <div class="image">
+            <img class="image-img thumbnail" src={jobSearchify} alt="A search engine and resume builder website." />
+            <div class="image-overlay image-overlay-blur">
+              <p class="image-description">JOB.searchify() is a job search engine geared towards the tech industry. Users have the option to build their own resume using our resume-builder generator and apply to job postings through our job search functionality. 
+              </p>
+            </div>
+          </div>
+          <p class="icons">
+            <a class="github" target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/fgp_job_searchify"><FaGithub /></a> |
+            <FaReact />
+            <FaNodeJs />
+            <SiExpress />
+            <SiMongodb />
+            <SiJavascript />
+            <FaHtml5 />
+            <FaCss3 />
+              {/* React/NodeJS/ExpressJS/MongoDB/Axios/React-to-pdf/Javascript/HTML/CSS */}
+          </p>
+        </article>
+
         <article class="box-card">
           <a target="_blank" rel="noreferrer" href="https://nerds-meet-nerds.herokuapp.com/"><h3>Nerds Meet Nerds</h3></a>
           <div class="image" id="first-card" >
@@ -100,11 +125,33 @@ function Projects() {
         </article>
         
         <article class="box-card">
-          <a target="_blank" rel="noreferrer" href="https://note-taker-inna.herokuapp.com/"><h3>Team Profile Generator</h3></a>
+          <a target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/social-media-mongodb"><h3>Social Media MongoDB</h3></a>
+          <div class="image">
+            <img class="image-img thumbnail" src={socialMediaMongoDB} alt="An API for users to share thoughts, react to friends, and create friend list." />
+            <div class="image-overlay image-overlay-blur">
+              <p class="image-description">***Note: This application does not deploy. To interact with the database, follow the README instructions in my repository.*** 
+              A social network platform that utilizes MongoDB and allows for API endpoints to interact with the database. Users can share their thoughts, react to friends’ thoughts, and create a friend list.
+              </p>
+            </div>
+          </div>
+          <p class="icons">
+            <a class="github" target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/social-media-mongodb"><FaGithub /></a> |
+            <SiExpress />
+            <SiHeroku />
+            <FaNodeJs />
+            <SiJavascript />
+            <FaHtml5 />
+            <FaCss3 />
+              {/* Express/Heroku/Node/HTML/CSS/JS  */}
+          </p>
+        </article>
+
+        <article class="box-card">
+          <a target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/team-profile-generator"><h3>Team Profile Generator</h3></a>
           <div class="image">
             <img class="image-img thumbnail" src={teamProfileGenerator} alt="Generates employee profile" />
             <div class="image-overlay image-overlay-blur">
-              <p class="image-description">***Note: This application is not deployed. To generate a team profile, follow the README instructions in my repository.*** 
+              <p class="image-description">***Note: This application does not deploy. To generate a team profile, follow the README instructions in my repository.*** 
               A team profile generator that allows an employer to access and manage their employee's profile. Based in the employee's title, a profile is generated with their specific information.
               </p>
             </div>
