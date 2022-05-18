@@ -53,9 +53,9 @@ Open the terminal by right-clicking the `src` folder, then in the command line, 
 [Creative React Portfolio](https://inna-arabejo.github.io/creative-portfolio-react/)
 
 ## Screenshots
-![Homepage](./src/images/home-page-porfolio.jpg)
-![Projects](./src/images/projects-portfolio.jpg)
-![Resume](./src/images/resume-pdf-portfolio.jpg)
+![Homepage](./src/images/project-images/home-page-porfolio.jpg)
+![Projects](./src/images/project-images/projects-portfolio.jpg)
+![Resume](./src/images/project-images/resume-pdf-portfolio.jpg)
 
 ## Technologies Used
 React, Node.js, HTML, CSS, JS, Bootstrap
