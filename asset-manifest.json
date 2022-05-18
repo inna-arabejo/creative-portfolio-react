@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/creative-portfolio-react/static/css/main.9cbd64ac.css",
-    "main.js": "/creative-portfolio-react/static/js/main.358ac917.js",
+    "main.js": "/creative-portfolio-react/static/js/main.c8167794.js",
     "static/media/junkfood.jpg": "/creative-portfolio-react/static/media/junkfood.b4e73a86e6fb30e3aaf2.jpg",
     "static/media/nerds-meet-nerds.jpg": "/creative-portfolio-react/static/media/nerds-meet-nerds.f137430f39927d2d0b2f.jpg",
     "static/media/team-profile-generator.jpg": "/creative-portfolio-react/static/media/team-profile-generator.727861c75af25b669584.jpg",
@@ -10,9 +10,11 @@
     "static/media/daily-planner-screenshot.jpg": "/creative-portfolio-react/static/media/daily-planner-screenshot.84d8a2d44b43d854a08c.jpg",
     "static/media/Reacticon.svg.png": "/creative-portfolio-react/static/media/Reacticon.svg.81ed438b18e24116794d.png",
     "static/media/note-taker.jpg": "/creative-portfolio-react/static/media/note-taker.2a2f80d5162a0f00b34e.jpg",
+    "static/media/social-media-mongodb.jpg": "/creative-portfolio-react/static/media/social-media-mongodb.7ff72da5802688d0efe5.jpg",
     "static/media/portfolio-password.jpg": "/creative-portfolio-react/static/media/portfolio-password.5fa52e87120f0fd1689d.jpg",
     "static/media/nodejs.png": "/creative-portfolio-react/static/media/nodejs.fc3bd1ec69d7a50e685a.png",
     "static/media/inna-resume.pdf": "/creative-portfolio-react/static/media/inna-resume.c8da5d2088d83074c8e6.pdf",
+    "static/media/webpage1.png": "/creative-portfolio-react/static/media/webpage1.f010b02f768755042b50.png",
     "static/media/mongodbicon.png": "/creative-portfolio-react/static/media/mongodbicon.e07dbe30930201e1d167.png",
     "static/media/trello.png": "/creative-portfolio-react/static/media/trello.f6515e0d5db883bb0817.png",
     "static/media/github.png": "/creative-portfolio-react/static/media/github.ecb17f4fb1908a93bab3.png",
@@ -25,10 +27,10 @@
     "static/media/html.png": "/creative-portfolio-react/static/media/html.33745eadd572612bdf11.png",
     "index.html": "/creative-portfolio-react/index.html",
     "main.9cbd64ac.css.map": "/creative-portfolio-react/static/css/main.9cbd64ac.css.map",
-    "main.358ac917.js.map": "/creative-portfolio-react/static/js/main.358ac917.js.map"
+    "main.c8167794.js.map": "/creative-portfolio-react/static/js/main.c8167794.js.map"
   },
   "entrypoints": [
     "static/css/main.9cbd64ac.css",
-    "static/js/main.358ac917.js"
+    "static/js/main.c8167794.js"
   ]
 }
