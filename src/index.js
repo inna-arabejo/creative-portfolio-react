@@ -5,7 +5,6 @@ import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Navigation,
-  Footer,
   Home,
   About,
   Contact,
@@ -24,7 +23,6 @@ ReactDOM.render(
       <Route path="/creative-portfolio-react/resume" element={<Resume />}>
       </Route>
     </Routes>
-    <Footer />
   </Router>,
 
   document.getElementById("root")

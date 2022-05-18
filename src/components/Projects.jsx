@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaNodeJs, FaHtml5, FaCss3, FaBootstrap, FaReact } from 'react-icons/fa';
-import { SiExpress, SiMysql, SiSequelize, SiSocketdotio, SiHandlebarsdotjs, SiJavascript, SiHeroku, SiMongodb } from 'react-icons/si';
+import { SiExpress, SiMysql, SiSequelize, SiSocketdotio, SiHandlebarsdotjs, SiJavascript, SiHeroku, SiMongodb, SiInsomnia } from 'react-icons/si';
 let nerdsMeetsNerds = require ("../images/project-images/nerds-meet-nerds.jpg");
 let junkfood = require ("../images/project-images/junkfood.jpg");
 let jobSearchify = require ("../images/project-images/webpage1.png");
@@ -136,9 +136,10 @@ function Projects() {
           </div>
           <p class="icons">
             <a class="github" target="_blank" rel="noreferrer" href="https://github.com/inna-arabejo/social-media-mongodb"><FaGithub /></a> |
-            <SiExpress />
-            <SiHeroku />
             <FaNodeJs />
+            <SiExpress />
+            <SiMongodb />
+            <SiInsomnia />
             <SiJavascript />
             <FaHtml5 />
             <FaCss3 />
