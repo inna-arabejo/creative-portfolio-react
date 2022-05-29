@@ -1,5 +1,7 @@
 # Creative Portfolio: React
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Objectives 
@@ -43,10 +45,10 @@ Open the terminal by right-clicking the `src` folder, then in the command line, 
 
 ## Main Features
 
-- An about me page that includes a list of skills.
+- About me page that includes a list of skills.
 - Projects I've created.
-- A contact form to connect with me. *Connecting to the backend in progress*
-- A displayed pdf image of my resume.
+- Contact form to contact me.
+- Image of resume which can be downloaded.
 
 
 ## Deployed Page
