@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/creative-portfolio-react/static/css/main.9cbd64ac.css",
-    "main.js": "/creative-portfolio-react/static/js/main.ac2242db.js",
+    "main.css": "/creative-portfolio-react/static/css/main.ddcac485.css",
+    "main.js": "/creative-portfolio-react/static/js/main.ebe71c82.js",
     "static/media/junkfood.jpg": "/creative-portfolio-react/static/media/junkfood.b4e73a86e6fb30e3aaf2.jpg",
     "static/media/nerds-meet-nerds.jpg": "/creative-portfolio-react/static/media/nerds-meet-nerds.f137430f39927d2d0b2f.jpg",
     "static/media/team-profile-generator.jpg": "/creative-portfolio-react/static/media/team-profile-generator.727861c75af25b669584.jpg",
@@ -13,7 +13,7 @@
     "static/media/social-media-mongodb.jpg": "/creative-portfolio-react/static/media/social-media-mongodb.7ff72da5802688d0efe5.jpg",
     "static/media/portfolio-password.jpg": "/creative-portfolio-react/static/media/portfolio-password.5fa52e87120f0fd1689d.jpg",
     "static/media/nodejs.png": "/creative-portfolio-react/static/media/nodejs.fc3bd1ec69d7a50e685a.png",
-    "static/media/inna-resume.pdf": "/creative-portfolio-react/static/media/inna-resume.c8da5d2088d83074c8e6.pdf",
+    "static/media/inna-resume.pdf": "/creative-portfolio-react/static/media/inna-resume.35367b5eb8acdb3e7eca.pdf",
     "static/media/webpage1.png": "/creative-portfolio-react/static/media/webpage1.f010b02f768755042b50.png",
     "static/media/mongodbicon.png": "/creative-portfolio-react/static/media/mongodbicon.e07dbe30930201e1d167.png",
     "static/media/trello.png": "/creative-portfolio-react/static/media/trello.f6515e0d5db883bb0817.png",
@@ -26,11 +26,11 @@
     "static/media/stackoverflow.png": "/creative-portfolio-react/static/media/stackoverflow.23048f7754906f1c5cb8.png",
     "static/media/html.png": "/creative-portfolio-react/static/media/html.33745eadd572612bdf11.png",
     "index.html": "/creative-portfolio-react/index.html",
-    "main.9cbd64ac.css.map": "/creative-portfolio-react/static/css/main.9cbd64ac.css.map",
-    "main.ac2242db.js.map": "/creative-portfolio-react/static/js/main.ac2242db.js.map"
+    "main.ddcac485.css.map": "/creative-portfolio-react/static/css/main.ddcac485.css.map",
+    "main.ebe71c82.js.map": "/creative-portfolio-react/static/js/main.ebe71c82.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cbd64ac.css",
-    "static/js/main.ac2242db.js"
+    "static/css/main.ddcac485.css",
+    "static/js/main.ebe71c82.js"
   ]
 }
