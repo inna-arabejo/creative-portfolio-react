@@ -108,12 +108,12 @@ export const Contact = () => {
                 <div>
                   <input class="button" type="submit" className='btn btn-info' value="Send Now" />
                 </div>
-                {/* {Object.keys(formErrors).length === 0 && isSubmit ? (
+              </form>
+                {Object.keys(formErrors).length === 0 && isSubmit ? (
                 <div className='ui message success'>Message Sent Successfully</div>) 
                 : (
-                <pre>{JSON.stringify(formValues, undefined, 2)}</pre>
-                )} */}
-              </form>
+                <pre>{JSON.stringify(undefined, 2)}</pre>
+                )}
           </div>
         </div>
       </div>

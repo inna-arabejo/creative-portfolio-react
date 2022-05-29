@@ -31,7 +31,7 @@ function About() {
           <div class="col-lg-6 about-paragraph">
             <p>
               My name is Inna Arabejo, and I am an
-              aspiring full stack developer versed in building projects from the ground up. I am an up-and-coming graduate of the Full Stack Web Development program from SMU Continuing and Professional Education; a rigorous program with a primary focus on MERN Stack web applications.
+              aspiring full stack developer versed in building projects from the ground up. I am a graduate of the Full Stack Web Development program from SMU Continuing and Professional Education; a rigorous program with a primary focus on MERN Stack web applications.
             </p> 
             <p> 
               To me, web development isn't just about building functional code and delivering aesthetically pleasing web pages, but also how accessable it is. It's about building an application that improves access to information so it is easier to navigate and connect users to the services they need.

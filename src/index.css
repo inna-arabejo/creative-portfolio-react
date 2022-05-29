@@ -393,3 +393,230 @@ h1.resume-heading {
 .copyright {
   margin-top: 50px;
 }
+
+/* Media Queries */
+@media (max-width: 950px) {
+  .container{
+    width: 90%;
+    padding: 30px 40px 40px 35px ;
+  }
+  .container .content .right-side{
+   width: 75%;
+   margin-left: 55px;
+}
+}
+@media (max-width: 820px) {
+  .container{
+    margin: 40px 0;
+    height: 100%;
+  }
+  .container .content{
+    flex-direction: column-reverse;
+  }
+ .container .content .left-side{
+   width: 100%;
+   flex-direction: row;
+   margin-top: 40px;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+ .container .content .left-side::before{
+   display: none;
+ }
+ .container .content .right-side{
+   width: 100%;
+   margin-left: 0;
+ }
+}
+
+/* Media query for responsive layout */
+@media screen and (min-width: 375px) and (max-width: 479px) {
+  /* header {
+    display: flex;
+    width: 110%;
+  }
+  header nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  nav h1.main-header {
+    display: flex;
+    font-size: 30px;
+    margin-left: 20px;
+  } */
+  nav ul{
+    font-size: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  main {
+    width: 100%;
+  }
+  .about {
+    display: flex;
+    width: 100%;
+  }
+  section.about h2 {
+    padding-top: 20px;
+    text-align: center;
+    
+  }
+  section#about-me div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  section#about-me div img {
+    display: flex;
+    border-top-right-radius: 20px;
+    margin-top: 10px;
+  }
+  div.bio-about-me {
+    font-size: 25px;
+  }
+  .box-card#first-card img{
+    width: 50%;
+    
+  }
+  a img.thumbnail {
+    min-width: 300px;
+  }
+  #footer {
+    width: 110%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 576px) {
+  header {
+    display: flex;
+    width: 100%;
+  }
+  header nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+  }
+  nav h1.main-header {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+  }
+  nav ul{
+    font-size: 20px;
+    display: flex;
+  }
+  
+  section#about-me {
+    display: flex;
+  }
+  section#about-me h2 {
+    padding-top: 20px;
+    text-align: center;
+    
+  }
+  section#about-me div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  section#about-me div img {
+    border-top-right-radius: 20px;
+    margin-top: 10px;
+  }
+  div.bio-about-me {
+    font-size: 25px;
+  }
+  .box-card#first-card img{
+    width: 100%;
+    
+  }
+  a img.thumbnail {
+    min-width: 400px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  header nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+  header nav h1.main-header {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 60px;
+    margin-right: 5%;
+  }
+  .box-card#first-card img{
+    width: 100%;
+    
+  }
+  a img.thumbnail {
+    min-width: 400px;
+  }
+  
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  header nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-content: flex-end;
+  }
+  header nav h1.main-header {
+    display: flex;
+    margin-right: 10%;
+    font-size: 60px;
+  }
+  .box-card#first-card img{
+    width: 100%;
+  }
+  
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  header nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  header nav h1.main-header {
+    display: flex;
+    margin-right: 32.5%;
+    font-size: 60px;
+  }
+  .box-card#first-card img{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1283px) {
+  header nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  header nav h1.main-header {
+    display: flex;
+    margin-right: 37.5%;
+  }
+  .box-card#first-card img{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1284px) {
+  header nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-content: flex-end;
+  
+  }
+}
